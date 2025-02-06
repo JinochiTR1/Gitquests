@@ -1,52 +1,36 @@
-📌 Účel programu
-1️⃣ Popis, k čemu program slouží
-Program slouží k procvičení práce s GitHubem a verzováním kódu. Uživatel se naučí základní principy správy verzí pomocí Git, jako je přidávání souborů, vytváření commitů a jejich nahrávání na GitHub.
+# 📌 Účel programu
+- Program slouží k procvičení práce s GitHubem a verzováním kódu. Uživatel se naučí základní principy správy verzí pomocí Git, jako je přidávání souborů, vytváření commitů a jejich nahrávání na GitHub.
 
-Pokud program vykonává nějakou konkrétní funkci, může být popis například:
+## Pokud program vykonává nějakou konkrétní funkci, může být popis například:
+- Tento program je jednoduchá webová aplikace napsaná v HTML, CSS a JavaScriptu, která zobrazuje základní informace o projektu.
 
-Tento program je jednoduchá webová aplikace napsaná v HTML, CSS a JavaScriptu, která zobrazuje základní informace o projektu.
-
-2️⃣ Jaké problémy řeší
-Umožňuje naučit se základy verzování kódu.
-Pomáhá seznámit se s GitHubem a správou repozitářů.
-Ukazuje, jak pracovat s README.md a .gitignore.
-Slouží jako ukázka jednoduché webové stránky.
-3️⃣ Jaké má hlavní funkce
+### Jaké problémy řeší
+- Umožňuje naučit se základy verzování kódu.
+- omáhá seznámit se s GitHubem a správou repozitářů.
+- Ukazuje, jak pracovat s README.md a .gitignore.
+- Slouží jako ukázka jednoduché webové stránky.
+###  Jaké má hlavní funkce
 ✅ Verzování kódu – Každá změna je zaznamenána pomocí commitů.
 ✅ Struktura projektu – Obsahuje důležité soubory (index.html, README.md, .gitignore).
 ✅ Zobrazení obsahu – HTML stránka umožňuje vizuální prezentaci informací.
 ✅ Snadné rozšíření – Můžeš přidat nové funkce a rozvíjet projekt.
 
-🚀 Jak program používat
-1️⃣ Instalace – Jak program nainstalovat
+# 🚀 Jak program používat
+###  Instalace – Jak program nainstalovat
 Pokud chceš program používat lokálně, postupuj takto:
-
-Naklonuj repozitář z GitHubu:
-sh
-Zkopírovat
-Upravit
+- Naklonuj repozitář z GitHubu:
 git clone https://github.com/TvujGithubUsername/cvicny-projekt.git
 Přejdi do složky projektu:
-sh
-Zkopírovat
-Upravit
 cd cvicny-projekt
 Pokud používáš Visual Studio Code, můžeš spustit příkaz:
-sh
-Zkopírovat
-Upravit
 code .
-2️⃣ Spuštění programu
+### Spuštění programu
 Pokud je program webová aplikace:
-
-Otevři soubor index.html v prohlížeči.
-Pokud máš nainstalovaný Live Server ve VS Code, spusť ho kliknutím na "Go Live".
-Pokud je to konzolový program (např. Python, C#):
+- Otevři soubor index.html v prohlížeči.
+- Pokud máš nainstalovaný Live Server ve VS Code, spusť ho kliknutím na "Go Live".
+- Pokud je to konzolový program (např. Python, C#):
 
 Python:
-sh
-Zkopírovat
-Upravit
 python main.py
 C# .NET:
 dotnet run
