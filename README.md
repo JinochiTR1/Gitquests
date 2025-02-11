@@ -11,18 +11,23 @@
 - Slouží jako ukázka jednoduché webové stránky.
 ###  Jaké má hlavní funkce
 ✅ Verzování kódu – Každá změna je zaznamenána pomocí commitů.
+
 ✅ Struktura projektu – Obsahuje důležité soubory (index.html, README.md, .gitignore).
+
 ✅ Zobrazení obsahu – HTML stránka umožňuje vizuální prezentaci informací.
+
 ✅ Snadné rozšíření – Můžeš přidat nové funkce a rozvíjet projekt.
 
 # 🚀 Jak program používat
-###  Instalace – Jak program nainstalovat
+### Použití LOKÁLNĚ
 Pokud chceš program používat lokálně, postupuj takto:
-- Naklonuj repozitář z GitHubu:
-git clone https://github.com/TvujGithubUsername/cvicny-projekt.git
-Přejdi do složky projektu:
-cd cvicny-projekt
-Pokud používáš Visual Studio Code, můžeš spustit příkaz:
+1. Naklonuj repozitář z GitHubu: git clone https://github.com/TvujGithubUsername/cvicny-projekt.git
+2. otevřít GitBash: cd /f/škola/zaklady_programovani/2letní/git
+3. pomocí git status zjistim jestli jsem připojenej ke Githubu
+4. pokud udělám nějaké změny, musím to potvrdit pomocí git add .
+5. poté přidám commit změn pomocí git commit -m "název dané změny"
+6. v poslední řadě udělám git push origin master a tím to odešlu na GitHub.
+Při používání Visual Studio Code, můžeš spustit příkaz:
 code .
 ### Spuštění programu
 Pokud je program webová aplikace:
@@ -31,20 +36,13 @@ Pokud je program webová aplikace:
 - Pokud je to konzolový program (např. Python, C#):
 
 Python:
-python main.py
+- python main.py
 C# .NET:
-dotnet run
-3️⃣ Konfigurace – Možnosti nastavení
-Tento projekt nevyžaduje žádnou složitou konfiguraci, ale pokud by byla potřeba:
-
-Soubor .env – může obsahovat konfiguraci (např. API klíče).
-Nastavení v config.json – pokud by program měl nějaká vlastní nastavení.
-4️⃣ Další poznámky
-📜 Licence: MIT, GPL nebo jiná (záleží na projektu).
-📖 Dokumentace: Pokud by projekt byl složitější, je vhodné přidat soubor docs/README.md.
+- dotnet run
 
 💡 Další informace
-1️⃣ Jak přispívat do projektu (pokud je open-source)
+
+Jak přispívat do projektu (pokud je open-source)
 Pokud chceš projekt rozšířit, postupuj podle těchto kroků:
 
 Forkni si repozitář na GitHubu.
