@@ -57,7 +57,3 @@ git add .
 git commit -m "Přidána nová funkce"
 git push origin nova-feature
 
-Autoři a kontaktní informace
-👤 Autor: TvůjGitHubUsername
-📧 Kontakt: tvojemail@example.com
-🔗 Repozitář: GitHub Project Link
